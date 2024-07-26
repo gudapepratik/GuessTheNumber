@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+}
+
+#game-container {
+    width: 70%;
+    height: 80vh;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    width: 90%;
+    min-height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 3rem;
+    padding: 1rem;
+    background-color: white;
+    border: thin solid rgba(255, 255, 255, 0.547);
+}
+
+#game h1 {
+    color: rgb(255, 255, 95);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+#game h3 {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+#prediction {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    gap: 0.2rem;
+    margin-bottom: 1.5rem;
+}
+
+form input {
+    border: none;
+    padding: 1rem;
+    background-color: rgb(249, 255, 189);
+    border-radius: 0.3rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+form input:focus {
+    outline: none;
+}
+
+form button {
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(218, 178, 0);
+    border: none;
+    cursor: pointer;
+    background-color: rgb(249, 255, 189);
+}
+
+form button:hover {
+    background-color: rgb(247, 254, 172);
+}
+
+#chances {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+#chances h4 {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+
+#resetbtn {
+    display: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 1.2rem;
+    background-color: white;
+    border: 1px solid rgb(101, 255, 104);
+    color: rgb(101, 255, 104);
+    cursor: pointer;
+    font-weight: 600;
+}
+#resetbtn:hover {
+    color: white;
+    background-color: rgb(90, 254, 93);
+}
